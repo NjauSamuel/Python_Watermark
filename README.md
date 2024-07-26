@@ -19,6 +19,12 @@ pip install pillow
 
 [Pillow Docs](https://python-pillow.github.io/)
 
+### Installation
+
+```
+git clone https://github.com/NjauSamuel/Python_Watermark.git
+```
+
 ### Application
 
 Using this script, you should assign images in a certain folder and its
