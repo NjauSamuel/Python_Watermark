@@ -1,7 +1,7 @@
 # Watermark
 
-Python script to add a watermark or logo to images recursively in a specified
-directory and its subdirectories.
+A Python script that recursively adds a logo or watermark to all of the photos
+in a given directory and all of its subdirectories.
 
 ## Output
 
@@ -19,10 +19,11 @@ pip install pillow
 
 [Pillow Docs](https://python-pillow.github.io/)
 
-### Usage
+### Application
 
-This script allows you to add a watermark or logo to images in a specified
-folder and its subdirectories. The script takes several arguments:
+Using this script, you should assign images in a certain folder and its
+subdirectories a watermark or a logo. The script accepts the following
+arguments:
 
 1. The folder with the images you want to watermark
 2. The path of the logo to add
@@ -53,16 +54,6 @@ To add padding around the watermark:
 
 ```
 python watermark.py './images' 'logo.png' --pos topleft --padding 20
+
+
 ```
-
-### Adapting
-
-If you want to save your watermarked images to a different directory instead of
-saving over the existing files, use the `--new_dir` option as shown in the usage
-examples. The script will maintain the original folder hierarchy in the
-specified new directory.
-
-### Ideas for future improvements
-
--  Allow custom positioning via exact pixel coordinates.
--  Adjust watermarks to be semi-transparent.
